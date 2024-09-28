@@ -21,7 +21,7 @@ EXPOSE 3000
 
 # Set environment variables
 ENV NODE_ENV=production
-ENV DATABASE_URL=postgresql://postgres:postgres@db:5432/postgres
+ENV DATABASE_URL=postgresql://langfuse_db_a9xf_user:ORyjjKV4RNyUCwcyOrgZftmoo2hM7PdT@dpg-crructggph6c738m2nv0-a/langfuse_db_a9xf
 ENV NEXTAUTH_URL=http://localhost:3000
 ENV NEXTAUTH_SECRET=secret
 ENV SALT=salt
